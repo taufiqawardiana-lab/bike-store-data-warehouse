@@ -10,7 +10,7 @@
 ---
 
 ### 2. Bike Store Sales Dashboard
-[Bike Store Sales Dashboard](https://github.com/taufiqawardiana-lab/bike-store-data-warehouse/blob/9eb44f7151f9d4bcf6baaa1d239a3c191f190f1f/screenshots/dashboard_report_sales_bike.png))
+[Bike Store Sales Dashboard](https://github.com/taufiqawardiana-lab/bike-store-data-warehouse/blob/9eb44f7151f9d4bcf6baaa1d239a3c191f190f1f/screenshots/dashboard_report_sales_bike.png)
 > Dashboard analitik penjualan toko sepeda menggunakan tools BI (tampak seperti **Metabase** atau sejenisnya).
 > Menampilkan:
 > - **Bar chart** revenue per toko (Baldwin Bikes tertinggi ~5M)
