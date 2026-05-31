@@ -153,6 +153,42 @@ docker-compose up -d
 
 ---
 
+## 📂 Repository Guide
+
+Berikut panduan akses ke seluruh file dan dokumentasi project ini:
+
+### 📓 Notebooks
+| File | Deskripsi |
+|------|-----------|
+| [01_data_profiling.ipynb](notebooks/01_data_profiling.ipynb) | Data understanding, profiling, dan referential integrity check |
+| [02_silver_layer.ipynb](notebooks/02_silver_layer.ipynb) | Data cleaning dan transformasi ke Silver Layer |
+| [03_gold_layer.ipynb](notebooks/03_gold_layer.ipynb) | Agregasi data ke Gold Layer |
+| [04_export_to_gsheets.ipynb](notebooks/04_export_to_gsheets.ipynb) | Export Gold Layer ke Google Sheets untuk dashboard |
+
+### ⚙️ Airflow Pipeline
+| File | Deskripsi |
+|------|-----------|
+| [bike_store_pipeline.py](airflow/dags/bike_store_pipeline.py) | DAG utama — Bronze → Silver → Gold pipeline |
+| [docker-compose.yml](airflow/docker-compose.yml) | Konfigurasi Docker Compose untuk Airflow |
+| [Dockerfile](airflow/Dockerfile) | Custom image Airflow dengan dependencies tambahan |
+| [requirements.txt](airflow/requirements.txt) | Python libraries yang diinstall di container Airflow |
+
+### 🗄️ SQL
+| File | Deskripsi |
+|------|-----------|
+| [queries.sql](sql/queries.sql) | 10 analytical queries untuk business questions |
+| [schema.sql](sql/schema.sql) | DDL schema untuk semua tabel Bronze, Silver, dan Gold |
+
+### 📖 Documentation
+| File | Deskripsi |
+|------|-----------|
+| [data_dictionary.md](docs/data_dictionary.md) | Penjelasan lengkap setiap kolom di semua tabel |
+| [pipeline_flow.md](docs/pipeline_flow.md) | Alur kerja ETL pipeline Bronze → Silver → Gold |
+| [business_questions.md](docs/business_questions.md) | 10 business questions beserta SQL queries dan hasilnya |
+| [architecture.md](docs/architecture.md) | Arsitektur sistem dan technology stack |
+
+---
+
 ## 👤 Author
 **Taufiq Akbar Wardiana**  
 Aspiring Data Engineer | Bandung, Indonesia  
