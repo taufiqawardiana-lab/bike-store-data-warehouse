@@ -91,7 +91,7 @@ Aggregated tables ready for analytics:
 ---
 
 ## 📊 Dashboard
-Built with Looker Studio — [View Dashboard](#) ← *(tambahkan link dashboard kamu)*
+Built with Looker Studio — [View Dashboard](https://datastudio.google.com/s/pTNGns_fs-s) 
 
 Key insights:
 - **Total Revenue:** $7,689,116.56
