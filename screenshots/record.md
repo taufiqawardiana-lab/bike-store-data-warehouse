@@ -1,7 +1,7 @@
 ## 📸 Screenshots
 
 ### 1. Pipeline Run Status
-![Pipeline Run Status](screenshots/Tangkapan Layar 2026-05-31 pukul 15.49.04.png)
+![Pipeline Run Status](screenshots/TangkapanLayar2026-05-31pukul15.49.04.png)
 > Monitoring pipeline duration untuk tiga layer data: **load_bronze**, **load_silver**, dan **load_gold**.
 > Grafik batang menampilkan durasi eksekusi tiap run — warna merah menandakan run yang gagal/lama,
 > sementara warna hijau menandakan run yang berhasil dan cepat. Terlihat adanya perbaikan performa
@@ -10,7 +10,7 @@
 ---
 
 ### 2. Bike Store Sales Dashboard
-![Bike Store Sales Dashboard](screenshots/dashboard.png)
+![Bike Store Sales Dashboard](screenshots/TangkapanLayar2026-05-31pukul16.07.45.png)
 > Dashboard analitik penjualan toko sepeda menggunakan tools BI (tampak seperti **Metabase** atau sejenisnya).
 > Menampilkan:
 > - **Bar chart** revenue per toko (Baldwin Bikes tertinggi ~5M)
