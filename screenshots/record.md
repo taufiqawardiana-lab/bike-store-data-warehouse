@@ -1,7 +1,7 @@
 ## 📸 Screenshots
 
 ### 1. Pipeline Run Status
-[Pipeline Run Status](screenshots/airflow_dags.png)
+[Pipeline Run Status](https://github.com/taufiqawardiana-lab/bike-store-data-warehouse/blob/578127fb88c64b19d008bdd39dceb69daf34ea22/screenshots/airflow_dags.png)
 > Monitoring pipeline duration untuk tiga layer data: **load_bronze**, **load_silver**, dan **load_gold**.
 > Grafik batang menampilkan durasi eksekusi tiap run — warna merah menandakan run yang gagal/lama,
 > sementara warna hijau menandakan run yang berhasil dan cepat. Terlihat adanya perbaikan performa
