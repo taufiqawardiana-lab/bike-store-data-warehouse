@@ -119,6 +119,8 @@ bike_store_dw/
 │   ├── 02_silver_layer.ipynb
 │   ├── 03_gold_layer.ipynb
 │   └── 04_export_to_gsheets.ipynb
+|__ screenshoots/
+|   |__ README
 ├── airflow/
 │   ├── dags/
 │   │   └── bike_store_pipeline.py
@@ -161,3 +163,4 @@ Aspiring Data Engineer | Bandung, Indonesia
 
 ## 📌 Project Status
 ✅ Completed
+
