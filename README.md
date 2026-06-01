@@ -12,13 +12,13 @@ Bronze → Silver → Gold layers, and visualizes insights via Looker Studio.
 ```
 Google Sheets (Source)
         ↓
-  Bronze Layer (Raw)
+Bronze Layer (Raw)
         ↓
-  Silver Layer (Cleaned)
+Silver Layer (Cleaned)
         ↓
-   Gold Layer (Aggregated)
+Gold Layer (Aggregated)
         ↓
-  Looker Studio (Dashboard)
+Looker Studio (Dashboard)
 ```
 
 ---
