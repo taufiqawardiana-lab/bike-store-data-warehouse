@@ -112,21 +112,32 @@ load_bronze → load_silver → load_gold
 
 ## 🗂️ Project Structure
 ```
-bike_store_dw/
-├── credentials/          # Service account (not uploaded)
-├── notebooks/
-│   ├── 01_data_profiling.ipynb
-│   ├── 02_silver_layer.ipynb
-│   ├── 03_gold_layer.ipynb
-│   └── 04_export_to_gsheets.ipynb
-|__ screenshoots/
-|   |__ README
-├── airflow/
-│   ├── dags/
-│   │   └── bike_store_pipeline.py
-│   ├── docker-compose.yml
-│   ├── Dockerfile
-│   └── requirements.txt
+├── airflow
+│   ├── config
+│   │   └── credentials.json
+│   ├── dags
+│   │   └── bike_store_pipeline.py
+│   ├── plugins
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   └── requirements.txt
+├── docs
+│   └── README.md
+├── notebooks
+│   ├── 01_data_profiling.ipynb
+│   ├── 02_silver_layer.ipynb
+│   ├── 03_gold_layer.ipynb
+│   └── 04_export_to_gsheets.ipynb
+├── pipeline
+│   ├── bronze
+│   ├── gold
+│   └── silver
+├── screenshots
+│   └── README.md
+├── sql
+│   ├── queries.sql
+│   └── schema.sql
+├── LICENSE
 └── README.md
 ```
 
