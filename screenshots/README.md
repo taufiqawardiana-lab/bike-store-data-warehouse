@@ -10,13 +10,21 @@
 ---
 
 ### 2. Bike Store Sales Dashboard
-[Bike Store Sales Dashboard](https://github.com/taufiqawardiana-lab/bike-store-data-warehouse/blob/9eb44f7151f9d4bcf6baaa1d239a3c191f190f1f/screenshots/dashboard_report_sales_bike.png)
+[Bike Store Sales Dashboard](https://github.com/taufiqawardiana-lab/bike-store-data-warehouse/blob/08ee77d653a810e42e29295dd8ac2980c210a45a/screenshots/Dashboard%20Sales%20Report.png)
 > Dashboard analitik penjualan toko sepeda menggunakan tools BI (tampak seperti **Metabase** atau sejenisnya).
 > Menampilkan:
 > - **Bar chart** revenue per toko (Baldwin Bikes tertinggi ~5M)
 > - **Pie chart** komposisi kategori produk (Mountain Bikes 35.3%, Road Bikes 21.7%)
 > - **Line chart** tren revenue harian dari Jan 2016 – Agt 2018
-> - **Tabel top 10 produk** berdasarkan quantity dan revenue
+
+[Sales Analysis](https://github.com/taufiqawardiana-lab/bike-store-data-warehouse/blob/08ee77d653a810e42e29295dd8ac2980c210a45a/screenshots/Sales%20Analysis.png)
+> - **Table Top 10 Products**
+> - **Bar Chart Revenue Per Brand**
+> - **Table Staff Performance**
+
+[Inventory Management](https://github.com/taufiqawardiana-lab/bike-store-data-warehouse/blob/08ee77d653a810e42e29295dd8ac2980c210a45a/screenshots/Inventory%20Management.png)
+> - **Stacked Bar Chart Stock per Store per Brand**
+> - **Table Low Stock Alert**
 
 ---
 
