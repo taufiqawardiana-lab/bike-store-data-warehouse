@@ -90,15 +90,38 @@ Aggregated tables ready for analytics:
 
 ---
 
-## 📊 Dashboard
-Built with Looker Studio — [View Dashboard](https://datastudio.google.com/s/pTNGns_fs-s) 
+## Dashboard - Built With Looker Studio
+### Page 1 - Executive Summary
+[View Dashboard](https://github.com/taufiqawardiana-lab/bike-store-data-warehouse/blob/08ee77d653a810e42e29295dd8ac2980c210a45a/screenshots/Dashboard%20Sales%20Report.png)
+- **Scorecard Actual Revenue** — Total revenue dari completed orders
+- **Scorecard Lost Revenue** — Revenue dari rejected orders
+- **Scorecard Potential Revenue** — Revenue dari pending orders
+- **Scorecard Revenue In Process** — Revenue dari processing orders
+- **Bar Chart Revenue per Store** — Perbandingan revenue antar cabang toko
+- **Pie Chart Revenue per Kategori** — Distribusi revenue berdasarkan kategori produk
+- **Time Series Tren Revenue** — Tren revenue harian dari 2016 hingga 2018
 
-Key insights:
-- **Total Revenue:** $7,689,116.56
-- **Top Store:** Baldwin Bikes ($5.2M — 68% of total revenue)
+### Page 2 - Sales Analysis
+[View Dashboard](https://github.com/taufiqawardiana-lab/bike-store-data-warehouse/blob/08ee77d653a810e42e29295dd8ac2980c210a45a/screenshots/Sales%20Analysis.png)
+- **Table Top 10 Products** — 10 produk dengan revenue tertinggi
+- **Bar Chart Revenue per Brand** — Perbandingan revenue antar brand
+- **Table Staff Performance** — Performa staff berdasarkan total orders dan revenue
+
+### Page 3 - Inventory Management
+[View Dashboard](https://github.com/taufiqawardiana-lab/bike-store-data-warehouse/blob/08ee77d653a810e42e29295dd8ac2980c210a45a/screenshots/Inventory%20Management.png)
+- **Stacked Bar Chart Stock per Store per Brand** — Distribusi stok per toko per brand
+- **Table Low Stock Alert** — Produk dengan stok menipis (1-9 unit) per toko
+
+### Key Insight
+- **Actual Revenue:** $6,662,615.24 (Completed orders only)
+- **Lost Revenue (Rejected):** $208,579.45
+- **Top Store:** Baldwin Bikes ($5,215,751.28 — 68% of total revenue)
 - **Top Category:** Mountain Bikes (35.3% of revenue)
 - **Top Product:** Trek Slash 8 27.5 - 2016 ($555,558.61)
+- **Top Brand:** Trek ($4,728,312.45)
+- **Top Staff:** Marcelene Boyer — Baldwin Bikes ($2,405,217.85)
 - **Best Year:** 2017 ($1,265,776.22)
+- **Low Stock Products:** 292 produk dengan stok 1-9 unit
 
 ---
 
